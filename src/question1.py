@@ -26,6 +26,6 @@ top_n = 3
 
 contracts = Contracts()
 actual_open_contracts = contracts.get_top_N_open_contracts(list_of_contracts, renegotiated_contracts, top_n)
-print("actual_open_contracts", actual_open_contracts)
+
 expected_open_contracts = [5, 4, 2]
 assert expected_open_contracts == actual_open_contracts
