@@ -9,6 +9,10 @@ O método primeiro filtra todos os contratos em *open_contracts* que foram reneg
 
 Alguns erros encontrados foram na parte de separar os contratos para remover os que já haviam sido renegociados.
 
+Para executar:
+
+    python .\src\test_question1.py
+
 ## Question 2
 
 Nessa implementação, primeiro classificamos a lista de solicitações em ordem decrescente. Isso nos permite começar com as maiores solicitações e emparelhá-las com solicitações menores para minimizar o número de viagens necessárias.
@@ -20,3 +24,7 @@ Para cada iteração do loop, verificamos se a soma das solicitações apontadas
 Quando o loop é concluído, retornamos o valor final de *num_trips*, que representa o número mínimo de viagens necessárias para atender a todas as solicitações.
 
 Alguns erros encontrados foram na parte da soma onde em alguns casos o código não somava os valores corretamente acarretando em um valor maior de num_trips.
+
+Para executar:
+
+    python .\src\test_question2.py
